@@ -62,6 +62,7 @@ body {
 }
 
 .main {
+  /* margin: auto; */
   text-align: center;
 }
 
@@ -102,9 +103,8 @@ body {
 
 /* formulir */
 .container input[type='text'],
-input[type='email'],
-input[type='number'],
-select {
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -148,4 +148,16 @@ input[type='submit']:hover {
   float: left;
   width: 75%;
   margin-top: 6px;
+}
+
+footer h1,
+h5 {
+  color: #b3aeb5;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #202020;
 }
