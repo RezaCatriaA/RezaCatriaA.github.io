@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav .search-container {
+    float: none;
+    width: 100%;
+
+    padding: 14px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .topnav .search-container button {
+    border: 1px solid #ccc;
+    width: 20%;
+  }
+
+  .topnav input[type='text'] {
+    border: 1px solid #ccc;
+    width: 70%;
+  }
+
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
